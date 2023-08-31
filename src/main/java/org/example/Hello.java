@@ -2,10 +2,10 @@ package org.example;
 
 import org.apache.commons.text.WordUtils;
 
-public interface Foo {
-    default String foo() {
+public interface Hello {
+    default String world() {
         return WordUtils.capitalize("foo");
     }
-    String bar(String text);
+    String helloWorld(String text);
 
 }
