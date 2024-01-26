@@ -5,7 +5,7 @@ import org.apache.commons.text.WordUtils;
 public class HelloImpl implements Hello {
 
     @Override
-    public String helloWorld(String text) {
+    public String helloWorldV2(String text) {
         return WordUtils.capitalize(text);
     }
 }

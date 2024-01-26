@@ -6,6 +6,6 @@ public interface Hello {
     default String world() {
         return WordUtils.capitalize("foo");
     }
-    String helloWorld(String text);
+    String helloWorldV2(String text);
 
 }
