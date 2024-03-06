@@ -9,6 +9,7 @@ public class Main {
         System.out.println(s.helloWorldV3("hello world"));
 
         System.out.println(WordUtils.capitalize("foo bar"));
+        System.out.println(WordUtils.uncapitalize("foo bar"));
     }
 
 }
